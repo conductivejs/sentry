@@ -1,10 +1,6 @@
 import * as Sentry from '@sentry/node';
 
-export default (initConfig = {}, requestHandlerConfig = {}) => {
-    if (initConfig.dsn) {
-        throw new Error('Must pass DSN to Sentry configuration!');
-    }
-
+export default (initConfig, requestHandlerConfig) => {
     Sentry.init(initConfig);
     return Sentry.Handlers.requestHandler(requestHandlerConfig);
 };
