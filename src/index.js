@@ -1,8 +1,2 @@
-import * as Sentry from '@sentry/node';
-
-export { default as sentryHandler } from './sentryHandler';
-
-export default ({ dsn }) => {
-    Sentry.init({ dsn });
-    return Sentry.Handlers.requestHandler();
-};
+export { default as sentryRequestHandler } from './sentryRequestHandler';
+export { default as sentryErrorHandler } from './sentryErrorHandler';
