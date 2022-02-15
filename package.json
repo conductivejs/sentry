@@ -16,7 +16,7 @@
   "homepage": "https://conductive.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/conductivejs/core"
+    "url": "https://github.com/conductivejs/sentry"
   },
   "publishConfig": {
     "access": "public"
