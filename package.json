@@ -1,6 +1,6 @@
 {
   "name": "@conductive/sentry",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sentry error handling for @conductive.",
   "type": "module",
   "main": "./sentry.js",
