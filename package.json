@@ -34,16 +34,15 @@
     "@sentry/node": "^6.17.8"
   },
   "peerDependencies": {
-    "@conductive/core": "^0.0.50"
+    "@conductive/core": "^0.0.52"
   },
   "devDependencies": {
-    "@conductive/core": "^0.0.50",
+    "@conductive/core": "^0.0.52",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "eslint": "^8.6.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "rollup": "^2.63.0",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup": "^2.63.0"
   },
   "files": [
     "sentry.js"
