@@ -8,6 +8,10 @@ export default (config) => {
         if (error instanceof GenericError) return false;
         if (!environmentsToHandle.includes(environment)) return false;
 
+        if (Array.isArray(error)) {
+            return !error.every((e) => e instanceof GenericError);
+        }
+
         return true;
     };
 
